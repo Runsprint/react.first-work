@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Overpass:wght@400;700&display=swap');
+*{
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Overpass', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainBody{
+    background-color:black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.contentDiv{
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34  0%, #181E27 100%);
+    /* width: 412px;
+    height: 416px; */
+    width: 359px;
+    height: 343px;
+    border-radius: 30px;
+    padding: 32px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.backDiv{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #262E38;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
 }
-
-.App-link {
-  color: #61dafb;
+.title{
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 35px;
+   color: #ffffff;
+   padding: 30px 0px 7px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #969FAD;
+    width: 340px;
+}
+.fiveDiv{
+    display: flex;
+    flex-direction: row;
+    color: #969FAD;
+    gap: 24px;
+    padding:24px 0px 32px 0px;
+}
+.button{
+    width: 341px;
+    height: 45px;
+    color: #ffffff;
+    background-color: #FC7614;
+    border-radius: 22.5px;
+    border: none;
+    letter-spacing: 0.5px;
+}
+.button:hover{
+    background-color: #ffffff;
+    color: #FC7614;
+    cursor: pointer;
+}
+.one:hover, .two:hover,.three:hover,.four:hover,.five:hover{
+    background-color:#FC7614;
+    color:#ffffff ;
+    cursor: pointer;
 }
