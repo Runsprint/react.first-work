@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import starImage from "./images/icon-star.svg";
-import "./app.css";
+import "./App.css";
 import "./reset.css";
 import ResultUpdate from "./components/ResultUpdate.jsx";
 import { useState } from "react";

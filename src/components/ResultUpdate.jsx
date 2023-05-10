@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../app.css";
+import "../App.css";
 import "../reset.css";
 import thanksImage from "../images/illustration-thank-you.svg";
 import { useState } from "react";
